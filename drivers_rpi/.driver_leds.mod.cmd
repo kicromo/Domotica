@@ -1,0 +1,1 @@
+cmd_/home/kicromo/SistemaOperativo/drivers_rpi/driver_leds.mod := printf '%s\n'   driver_leds.o | awk '!x[$$0]++ { print("/home/kicromo/SistemaOperativo/drivers_rpi/"$$0) }' > /home/kicromo/SistemaOperativo/drivers_rpi/driver_leds.mod

@@ -1,0 +1,1 @@
+cmd_/home/kicromo/SistemaOperativo/drivers_rpi/driver_leds.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/kicromo/SistemaOperativo/drivers_rpi/driver_leds.ko /home/kicromo/SistemaOperativo/drivers_rpi/driver_leds.o /home/kicromo/SistemaOperativo/drivers_rpi/driver_leds.mod.o;  true
